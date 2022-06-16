@@ -26,10 +26,7 @@ public class NumberActivity extends AppCompatActivity {
 
     private AudioFocusRequest mAudioFocusRequest;
 
-    /**
-     * This listener gets triggered whenever the audio focus changes
-     * (i.e., we gain or lose audio focus because of another app or device).
-     */
+
     private AudioManager.OnAudioFocusChangeListener mOnAudioFocusChangeListener = new AudioManager.OnAudioFocusChangeListener() {
         @Override
         public void onAudioFocusChange(int focusChange) {
